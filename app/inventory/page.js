@@ -26,7 +26,6 @@ import { toast } from "../../hooks/use-toast"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function InventoryPage() {
-  const { user } = useUser()
   const [inventory, setInventory] = useState([])
   const [newItem, setNewItem] = useState({
     name: "",
